@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;           
+}
+
+body {
+    width: 100vw;
+    height: 75vw; 
+    overflow: hidden;
+}
+.wrapper {
+    width: inherit;
+    height: inherit;
+}
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.center {
+    animation: center 1s forwards;
+}
+@keyframes center {
+    0% {
+        position: relative;
+    }
+    100% {
+        position: absolute;
+        top: 14vw;
+        left: 38vw;
+    }    
+}
+
+.game_img_text-width {
+    width: 45vw;
+    color: #fff;
+    text-align: center;
+    font-size: 3.47vw;
+    font-family: 'VKDisplay Regular';
+
+}
+.positionLeft {
+    animation: positionLeft 1s forwards;
+}
+.positionRight {
+    animation: positionRight 1s forwards;
+}
+.firstPosition {
+    animation: firstPosition 1s forwards;
+}
+@keyframes firstPosition {
+    0% {
+        width: 36vw;
+        height: 56vw;
+        top: 6.18vw;
+        left: 35vw;
+
+    }
+    100% {
+        top: 14vw;
+        width: 31.39vw;
+        height: 48.33vw;
+        left: 15vw;
+    }
+}
+@keyframes positionLeft {
+    0% {
+        top: 14vw;
+        width: 31.39vw;
+        height: 48.33vw;
+        left: 15vw;
+
+    }
+    100% {
+        width: 36vw;
+        height: 56vw;
+        top: 6.18vw;
+        left: 35vw;
+    }
+}
+
+@keyframes positionRight {
+    0% {
+        top: 14vw;
+        width: 31.39vw;
+        height: 48.33vw;
+        left: 52.75vw;
+
+    }
+    100% {
+        width: 36vw;
+        height: 56vw;
+        top: 6.18vw;
+        left: 35vw;
+    }
+}
+.titleIncrease {
+    animation: titleIncrease 1s forwards;
+}
+.titleReduce {
+    animation: titleReduce 1s forwards;
+}
+@keyframes titleIncrease {
+    0% {
+        font-size: 3.47vw;
+
+    }
+    100% {
+        font-size: 3.96vw;
+    }
+}
+@keyframes titleReduce {
+    0% {
+        font-size: 3.96vw;
+
+    }
+    100% {
+        font-size: 3.47vw;
+    }
+}
+
+
+.none {
+    display: none;
+}
+.flex {
+    display: flex;
+}
+
+.smooth-start {
+    animation: start .5s forwards;
+}
+.smooth-end {
+    animation: end .5s forwards;
+}
+
+
+
+
+@keyframes start {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes end {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}

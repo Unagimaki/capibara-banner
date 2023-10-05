@@ -1,0 +1,44 @@
+.wrapper {
+    width: inherit;
+    height: inherit;
+
+    background: url(/images/back.png);
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+
+    position: relative;
+}
+.intro_logo {
+    width: 33.26vw;
+    height: 7.28vw;
+}
+.intro_inner {
+    padding-top: 6.74vw;
+    flex-direction: column;
+    align-items: center;
+}
+.intro_title {
+    padding-top: 13.26vw;
+    padding-bottom: 4.31vw;
+    font-size: 6.25vw;
+    color: #fff;
+    font-family: 'VKDisplay Medium';
+    text-align: center;
+}
+.intro_button {
+    font-family: 'VKDisplay Medium';
+    background-color: #0077FF;
+    color: #fff;
+    width: 36.53vw;
+    height: 8.26vw;
+    border-radius: 2.22vw;
+    font-size: 3.9vw;
+}
+.capibara_img {
+    width: 37.74vw;
+    position: absolute;
+    bottom: 0vw;
+    left: 0vw;
+}

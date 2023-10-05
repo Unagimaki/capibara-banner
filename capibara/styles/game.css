@@ -1,0 +1,52 @@
+.game_title {
+    color: #fff;
+    font-size: 4.86vw;
+    font-family: 'VKDisplay Medium';
+    text-align: center;
+    padding-top: 5.49vw;
+    margin-bottom: 5.76vw;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 8.26vw;
+}
+.game_form {
+    padding-left: 8.26vw;
+}
+.custom-checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    width: 40px;
+    height: 40px;
+}
+.custom-checkbox+label {
+    display: flex;
+    user-select: none;
+
+}
+  .custom-checkbox+label::before {
+    content: '';
+    display: inline-block;
+    width: 3vw;
+    height: 3vw;
+    margin-right: 2.56vw;
+    margin-top: 1.8vw;
+    flex-shrink: 0;
+    flex-grow: 0;
+    background: url(/images/check-border.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.custom-checkbox:checked+label::before {
+    transition: .2s linear;
+    background-image: url(/images/check-full.png);
+    background-size: cover;
+}
+label {
+    color: #fff;
+    /* margin-bottom: 4.24vw; */
+}

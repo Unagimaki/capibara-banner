@@ -1,0 +1,59 @@
+.end {
+    width: inherit;
+    height: inherit;
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    padding-left: 7.42vw;
+    padding-top: 6.74vw;
+    position: relative;
+}
+.end_logo_container {
+    display: flex;
+    justify-content: center;
+}
+.end_logo {
+    width: 33.26vw;
+    height: 7.28vw;
+    margin-bottom: 4.46vw;
+}
+.end_title {
+    z-index: 3;
+    font-family: 'VKDisplay Medium';
+    font-size: 4.86vw;
+    color: #fff;
+    margin-bottom: 1.46vw;
+}
+.end_text {
+    z-index: 3;
+
+    color: #fff;
+    font-family: 'VKDisplay Regular';
+    font-size: 4.17vw;
+    margin-bottom: 8vw;
+}
+.end_button {
+    z-index: 3;
+
+    background: #0077FF;
+    color: #fff;
+    width: 38.12vw;
+    height: 8.26vw;
+    border-radius: 2.21vw;
+    font-size: 3.89vw;
+    font-family: 'VKDisplay Medium';
+}
+.end_img {
+    z-index: 1;
+
+    position: absolute;
+    bottom: 0vw;
+    right: 0vw;
+    width: 44vw;
+}
+
+label {
+    font-family: 'VKDisplay Regular';
+    font-size: 4.17vw;
+}
